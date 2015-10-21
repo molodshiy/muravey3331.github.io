@@ -1,0 +1,30 @@
+body {
+    background-color: #eeeeee;
+    margin: 5px auto; /* выравнивание по центру */
+    width: 600px; /* ширина */
+}
+
+.page {
+    padding: 50px; /* внутренние отступы - верх, право, низ, лево */
+    box-shadow: 0 0 5px 0 grey; /* тень  */
+    background-color: white; /* цвет фона в блоке */
+    margin-bottom: 50px;
+}
+
+.mainTitle {
+    text-align: center;
+}
+
+.text {
+    font-size: 22px; /*размер шрифта*/
+    padding-left: 20px;/*отступ*/
+}
+
+.borderBottom {
+    border-bottom: 1px solid black;/*параметры рамки*/
+}
+
+.pict {
+    display: block;
+    margin: 0 auto;
+}
