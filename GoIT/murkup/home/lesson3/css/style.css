@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 56px;
     font-family: sans-serif;
     color: #323232;
     padding: 65px 60px 54px;
@@ -26,7 +26,7 @@ h1 {
     list-style: none;
     background-color: #5c5c5c;
     margin: 0 62px 0;
-    box-shadow: 0 0 5px 0 grey; /* тень  */
+    box-shadow: 0 0 4px 0 grey; /* тень  */
 }
 
 .menuHorizontal ul li {
@@ -93,6 +93,7 @@ h1 {
 .img {
     margin: 55px 0;
     border: 1px solid #dfdfdf;
+    box-shadow: 0 0 4px 0 lightgrey; /* тень  */
 }
 
 p {
@@ -123,6 +124,7 @@ p {
     list-style: none;
     background-color: #e1e1e1;
     margin: 0 62px 0;
+    box-shadow: 0 0 4px 0 lightgrey; /* тень  */
 }
 
 .menuHorizontalButtom ul li {
