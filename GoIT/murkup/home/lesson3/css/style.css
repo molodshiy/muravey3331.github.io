@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.page {
+    margin: 0 200px 0;
+    width: 1400px;
+    /*   height: 1800px;*/
+    background-color: white;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #323232;
+    padding: 65px 60px 54px;
+}
+
+.menuHorizontal ul {
+    list-style: none;
+    background-color: #5c5c5c;
+    margin: 0 62px 0;
+}
+
+.menuHorizontal ul li {
+    display: inline-block;
+}
+
+.menuHorizontal a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;  /*размер шрифта*/
+    font-family: sans-serif;
+    padding: 0 35px 0;
+    margin-right: 50px;
+
+}
+
+.menuHorizontal li :hover {
+    background-color: #3b3b3b;
+    border-right: 1px solid #8a8a8a;
+    border-left: 1px solid #8a8a8a;
+}
+
+.menuHorizontal li a {
+    line-height: 52px;
+}
+
+/*Вертикальное меню */
+
+.menuVertical ul {
+    margin: 55px 65px 0 62px;
+    width: 315px;
+    border: 1px solid #dfdfdf;
+}
+
+.menuVertical li {
+    list-style: none;
+    padding: 0 30px 0 0;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.menuVertical li:last-child {
+    border-bottom: none;
+}
+
+.menuVertical li:hover {
+    padding-left: 18px;
+    background-color: #f9f9f9;
+}
+
+.menuVertical a {
+    display: block;
+    color: #787676;
+    font-family: sans-serif;
+    font-size: 18px; /*размер шрифта*/
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.menuVertical li a {
+    line-height: 52px;
+}
+
+.img {
+    margin: 55px 0;
+    border: 1px solid #dfdfdf;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 18px;  /*размер шрифта*/
+    line-height: 1.5;
+    color: #787676;
+    width: 825px;
+    padding: 0 32px 84px;
+
+    margin-left: 440px;
+}
+
+.menu {
+    float: left; /* Обтекание картинки текстом */
+}
+
+.text {
+    padding: 50px;
+    margin: 55px 0 55px 440px; /* Отступ от левого края */
+}
+
+.menuHorizontalButtom {
+    padding-bottom: 80px; /*отступ снизу*/
+}
+
+.menuHorizontalButtom ul {
+    list-style: none;
+    background-color: #e1e1e1;
+    margin: 0 62px 0;
+}
+
+.menuHorizontalButtom ul li {
+    display: inline-block;
+}
+
+.menuHorizontalButtom a {
+    display: block;
+    color: #505050;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 0 35px 0;
+    margin-right: 50px;
+
+}
+
+.menuHorizontalButtom li :hover {
+    text-decoration: underline;
+}
+
+.menuHorizontalButtom li a {
+    line-height: 52px;
+}
+
+.rights {
+    color: #505050;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.menuHorizontalButtom li:last-child {
+padding-left:330px;
+}
