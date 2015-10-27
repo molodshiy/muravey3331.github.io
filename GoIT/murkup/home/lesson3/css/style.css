@@ -41,8 +41,7 @@ h1 {
     font-family: sans-serif;
     padding: 0 35px 0;
     margin-right: 50px;
-
-}
+ }
 
 .menuHorizontal li :hover {
     background-color: #3b3b3b;
@@ -52,6 +51,8 @@ h1 {
 
 .menuHorizontal li a {
     line-height: 52px;
+    border-right: 1px solid #5c5c5c; /*невидимые рамки*/
+    border-left: 1px solid #5c5c5c;
 }
 
 /*Вертикальное меню */
