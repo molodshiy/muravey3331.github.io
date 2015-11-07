@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: black;
+}
+table{
+    margin: 30px auto ;
+    border-collapse: collapse;
+   }
+
+td{
+    border: 10px solid black;
+    }
+.one-one{
+    height: 47px;
+    width: 116px;
+    background-color: white;
+}
+.one-two{
+    height: 47px;
+    width: 199px;
+    background-color: white;
+}
+.one-three{
+    height: 47px;
+    width: 164px;
+    background-color: yellow;
+}
+
+
+
+.two-one{
+     height: 131px;
+     width: 47px;
+    background-color: white;
+ }
+.two-two{
+    height: 270px;
+    width: 270px;
+    background-color: red;
+}
+.two-three{
+    height:128px;
+    width: 164px;
+    background-color: yellow;
+}
+
+
+.three-one{
+    height: 200px;
+    width: 47px;
+    background-color: white;
+}
+.three-two{
+    width: 76px;
+    height:128px;
+background-color: white;
+}
+.three-three{
+    width: 76px;
+    height:128px;
+    background-color: white;
+}
+
+
+
+.four-one{
+    height: 61px;
+    width: 61px;
+    background-color: #181818;
+}
+.four-two{
+    height: 61px;
+    width: 60px;
+    background-color: #181818;
+}
+.four-three{
+    height: 61px;
+    width: 129px;
+    background-color: white;
+}
+.four-four{
+    height: 61px;
+    width: 162px;
+    background-color: white;
+}
+
+
+
+.five-one{
+    height: 136px;
+    width: 47px;
+    background-color: yellow;
+}
+.five-two{
+    height: 64px;
+    width: 61px;
+    background-color: #181818;
+}
+.five-three{
+    height: 64px;
+    width: 60px;
+    background-color: #181818;
+}
+.five-four{
+    height: 64px;
+    width: 130px;
+    background-color: white;
+}
+.five-five{
+    height: 96px;
+    width: 162px;
+    background-color:blue;
+}
+
+
+
+.six-one{
+    height: 68px;
+    width: 131px;
+    background-color: white;
+}
+.six-two{
+    height: 30px;
+    width: 128px;
+    background-color:#181818;
+}
+
+
+
+.seven-one{
+    height: 31px;
+    width: 300px;
+    background-color: white;
+}
