@@ -42,7 +42,7 @@ body {
     font-family: "Helvetica Neue Cyr Thin", Arial, sans-serif;
     text-decoration: none;
     font-size: 14px;
-    line-height: 41px;
+    line-height: 36px;
     padding: 0 13px;
     position: relative;
 
@@ -59,7 +59,7 @@ body {
     display: inline-block;
     width: 1px;
     height: 31px;
-    top: 4px;
+    top: 3px;
     background: #56a2dc;
     position: relative;
     margin-left: 9px;
@@ -76,6 +76,7 @@ body {
     width: 21px;
     margin-left: 10px;
     background: url(../img/flag.png);
+    background-repeat: no-repeat;
 }
 
 .user {
@@ -84,14 +85,14 @@ body {
     font-family: "Helvetica Neue Cyr Thin", Arial, sans-serif;
     text-decoration: none;
     font-size: 14px;
-    line-height: 41px;
+    line-height: 36px;
     padding: 0 17px 0 13px;
     position: relative;
     margin-left: 11px;
 }
 
 .enter p {
-    line-height: 41px;
+    line-height: 36px;
     border-radius: 1px;
     padding: 0 12px 0 14px;
     font-family: "Helvetica Neue Cyr Thin", Arial, sans-serif;
