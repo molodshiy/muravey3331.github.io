@@ -100,7 +100,7 @@ header {
 .loginform::-webkit-input-placeholder {
     color: #97a2a6;
     font-size: 11px;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     padding-left: 4px;
     letter-spacing: 0.6px;
 }
@@ -113,7 +113,7 @@ header {
     background: none;
     border: none;
     color: white;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     font-size: 11px;
     margin: 6px 0 0 1px;
 }
@@ -135,7 +135,7 @@ header {
     background: none;
     border: none;
     color: white;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     font-size: 11px;
     margin: 6px 5px 0 5px;
     letter-spacing: 0.3px;
@@ -150,7 +150,7 @@ header {
     border: none;
     color: #bfbfbf;
     text-decoration: underline;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     font-size: 12px;
     margin: 6px 10px 0 15px;
     letter-spacing: 0.19px;
@@ -231,7 +231,7 @@ header {
     text-decoration: none;
     color: #b1bcc0;
     font-size: 14px;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     margin: 0 15px;
 }
 
@@ -297,7 +297,7 @@ header {
 aside {
     float: left;
     margin-top: 3px;
-    width: 192px;
+    width: 191px;
 }
 
 .Prod_dir {
@@ -307,7 +307,7 @@ aside {
     border: 1px solid #8b979c;
     border-radius: 13px;
     padding: 2px;
-    margin-top: 1px;
+    margin: 1px 0 13px;
 }
 
 .list_img {
@@ -337,7 +337,7 @@ aside {
     display: block;
     float: left;
     padding: 4px 0 0 4px;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     font-size: 12px;
     color: #114165;
     letter-spacing: 0.68px;
@@ -365,7 +365,7 @@ aside {
     box-sizing: border-box;
     height: 28px;
     width: 150px;
-    margin: 13px 0 0 1px;
+    margin: 1px 0 0 1px;
     border: 1px solid #8b979c;
     border-radius: 13px;
     padding: 2px 4px;
@@ -377,7 +377,7 @@ aside {
     display: block;
     float: left;
     padding: 4px 0 0 3px;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     font-size: 13px;
     color: #114165;
 }
@@ -400,16 +400,16 @@ aside {
 }
 
 .prod_name_list > li {
-    margin: 4px 0 8px;
-    letter-spacing: 0.35px;
+    margin: 3px 0 8px;
+    letter-spacing: 0.65px;
 }
 .prod_name_list > li:last-child{
     margin-bottom: 0;
 }
 
 .prod_name_list a {
-    font-size: 13px;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     color: #465961;
     text-decoration: none;
 }
@@ -445,7 +445,7 @@ aside {
     display: block;
     float: left;
     padding: 3px 0 0 5px;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     font-size: 13px;
     color: #114165;
 }
@@ -464,7 +464,7 @@ aside {
     display: block;
     float: left;
     padding: 3px 0 0 5px;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     font-size: 13px;
     color: #114165;
 }
@@ -475,7 +475,7 @@ aside {
 
 .checkbox_title {
     font-size: 13px;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     color: #465961;
     text-decoration: none;
 }
@@ -520,14 +520,14 @@ aside {
 
 .wheel_product {
     float: left;
-    margin: 16px 7px 12px 22px;
+    margin: 14px 7px 12px 22px;
     width: 140px;
     height: 174px;
 }
 
 .wheel_brand {
     text-align: center;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: #206988;
@@ -535,19 +535,21 @@ aside {
 
 .wheel_model {
     text-align: center;
-    font-family: "Lucida Sans Unicoder Regular", Arial, sans-serif;
-    font-size: 13px;
+    font-family: "Lucida Sans Unicode Regular", Arial, sans-serif;
+    font-size: 12px;
     color: #1f2528;
+    letter-spacing: 0.8px;
+    padding-left: 6px;
 }
 
 .wheel_img {
     box-sizing: border-box;
     display: block;
     width: 140px;
-    height: 130px;
+    height: 128px;
     background-color: white;
     border: 1px solid #a7b1b4;
-    border-radius: 6px;
+    border-radius: 10px;
     position: relative;
 
 }
@@ -559,7 +561,7 @@ aside {
 }
 
 .wheel_price {
-    margin-top: 6px;
+    margin: 3px 0 0 14px;
     text-align: center;
     font-family:  Arial, sans-serif;
     font-size: 16px;
