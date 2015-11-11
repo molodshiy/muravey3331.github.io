@@ -525,3 +525,17 @@ aside {
     font-weight: bold;
     color: #114165;
 }
+
+/*BRAND*/
+
+
+.brand_logo{
+display: block;
+    width: 676px;
+    height: 27px;
+    margin: 40px auto 0;
+}
+.brand_logo>img{
+
+}
+
