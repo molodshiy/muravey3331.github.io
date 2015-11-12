@@ -74,7 +74,9 @@ header {
     background: -ms-linear-gradient(top, #1e5799 0%, #207cca 0%, #1f6787 0%, #0d3458 100%); /* IE10+ */
     background: linear-gradient(to bottom, #1e5799 0%, #207cca 0%, #1f6787 0%, #0d3458 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#0d3458', GradientType=0); /* IE6-9 */
-
+    -webkit-box-shadow: 4px 5px 6px -2px rgba(185,185,185,1);
+    -moz-box-shadow: 4px 5px 6px -2px rgba(185,185,185,1);
+    box-shadow: 4px 5px 6px -2px rgba(185,185,185,1);
 }
 
 .UserIMG {
@@ -164,6 +166,9 @@ header {
     border: 1px solid #c1c8cb;
     border-radius: 10px;
     margin: 1px 0 0 16px;
+    -webkit-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    -moz-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
 }
 
 .naviImg_home {
@@ -180,6 +185,16 @@ header {
     margin-top: 10px;
     width: 909px;
     height: 237px;
+    background: url("../img/mainImg.png")no-repeat;
+    position: relative;
+}
+.main_page_link{
+    position: absolute;
+    top: 50px;
+    left: 2px;
+    display: block;
+    width: 266px;
+    height: 120px;
 }
 
 /*MENU*/
@@ -198,7 +213,9 @@ header {
     background: -ms-linear-gradient(top, #4d5663 0%, #3a4046 11%, #2d3236 12%, #010101 100%, #010101 100%); /* IE10+ */
     background: linear-gradient(to bottom, #4d5663 0%, #3a4046 11%, #2d3236 12%, #010101 100%, #010101 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d5663', endColorstr='#010101', GradientType=0); /* IE6-9 */
-
+    -webkit-box-shadow: 4px 5px 6px -2px rgba(185,185,185,1);
+    -moz-box-shadow: 4px 5px 6px -2px rgba(185,185,185,1);
+    box-shadow: 4px 5px 6px -2px rgba(185,185,185,1);
 }
 
 .menu > nav > ul {
@@ -309,6 +326,9 @@ aside {
     border-radius: 13px;
     padding: 2px;
     margin: 1px 0 13px;
+    -webkit-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    -moz-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
 }
 
 .list_img {
@@ -371,6 +391,9 @@ aside {
     border-radius: 13px;
     padding: 2px 4px;
     letter-spacing: 1px;
+    -webkit-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    -moz-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
 
 }
 
@@ -443,6 +466,9 @@ aside {
     border: 1px solid #8b979c;
     border-radius: 13px;
     padding: 2px;
+    -webkit-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    -moz-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
 }
 
 .sidebar_dir > p {
@@ -463,6 +489,9 @@ aside {
     border: 1px solid #8b979c;
     border-radius: 13px;
     padding: 1px 0 0 4px;
+    -webkit-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    -moz-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
 }
 
 .sidebar_prod_disc {
@@ -473,6 +502,9 @@ aside {
     border: 1px solid #8b979c;
     border-radius: 13px;
     padding: 2px 0 0 3px;
+    -webkit-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    -moz-box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
+    box-shadow: 1px 1px 10px -2px rgba(185,185,185,1);
 
 }
 
@@ -530,6 +562,9 @@ aside {
     font-family: Arial, sans-serif;
     font-size: 11px;
     color: #e5e9ea;
+    -webkit-box-shadow: 2px 3px 1px 0 rgba(214,214,214,1);
+    -moz-box-shadow: 2px 3px 1px 0 rgba(214,214,214,1);
+    box-shadow: 2px 3px 1px 0 rgba(214,214,214,1);
 }
 
 /*CONTENT*/
@@ -580,6 +615,9 @@ aside {
     border: 1px solid #a7b1b4;
     border-radius: 8px;
     position: relative;
+    -webkit-box-shadow: 0 0 1px 1px rgba(214,214,214,1);
+    -moz-box-shadow: 0 0 1px 1px rgba(214,214,214,1);
+    box-shadow: 0 0 1px 1px rgba(214,214,214,1);
 }
 .wheel_img_Goodyear > img {
     display: block;
@@ -639,6 +677,9 @@ aside {
     border: 1px solid #a7b1b4;
     border-radius: 8px;
     position: relative;
+    -webkit-box-shadow: 0 0 1px 1px rgba(214,214,214,1);
+    -moz-box-shadow: 0 0 1px 1px rgba(214,214,214,1);
+    box-shadow: 0 0 1px 1px rgba(214,214,214,1);
 }
 .wheel_img_Nokian > img {
     display: block;
@@ -697,6 +738,9 @@ aside {
     border: 1px solid #a7b1b4;
     border-radius: 8px;
     position: relative;
+    -webkit-box-shadow: 0 0 1px 1px rgba(214,214,214,1);
+    -moz-box-shadow: 0 0 1px 1px rgba(214,214,214,1);
+    box-shadow: 0 0 1px 1px rgba(214,214,214,1);
 }
 .wheel_img_Hankook > img {
     display: block;
