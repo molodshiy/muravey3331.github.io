@@ -416,12 +416,15 @@ aside {
 }
 
 .prod_name_list a:hover {
+    display: block;
+    height: 20px;
     font-family: Arial, sans-serif;
     font-weight: bold;
     font-style: italic;
     font-size: 14px;
     color: #0c3256;
     text-decoration: underline;
+
 }
 
 /*SIDEBAD*/
